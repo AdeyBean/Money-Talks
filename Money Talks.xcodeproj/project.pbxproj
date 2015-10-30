@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		D5434D0A1BE357D80007A016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5434D091BE357D80007A016 /* AppDelegate.swift */; };
-		D5434D0C1BE357D80007A016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5434D0B1BE357D80007A016 /* ViewController.swift */; };
+		D5434D0C1BE357D80007A016 /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5434D0B1BE357D80007A016 /* NewsFeed.swift */; };
 		D5434D0F1BE357D80007A016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5434D0D1BE357D80007A016 /* Main.storyboard */; };
 		D5434D111BE357D80007A016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5434D101BE357D80007A016 /* Assets.xcassets */; };
 		D5434D141BE357D80007A016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5434D121BE357D80007A016 /* LaunchScreen.storyboard */; };
 		D5434D1F1BE357D80007A016 /* Money_TalksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5434D1E1BE357D80007A016 /* Money_TalksTests.swift */; };
 		D5434D2A1BE357D80007A016 /* Money_TalksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5434D291BE357D80007A016 /* Money_TalksUITests.swift */; };
+		D5434D621BE35CE90007A016 /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5434D3F1BE35CE90007A016 /* DetailTableViewController.m */; };
+		D5434D631BE35CE90007A016 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = D5434D411BE35CE90007A016 /* GTMNSString+HTML.m */; };
+		D5434D641BE35CE90007A016 /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D5434D431BE35CE90007A016 /* MWFeedInfo.m */; };
+		D5434D651BE35CE90007A016 /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D5434D451BE35CE90007A016 /* MWFeedItem.m */; };
+		D5434D661BE35CE90007A016 /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D5434D471BE35CE90007A016 /* MWFeedParser.m */; };
+		D5434D671BE35CE90007A016 /* MWFeedParserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5434D4A1BE35CE90007A016 /* MWFeedParserAppDelegate.m */; };
+		D5434D681BE35CE90007A016 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = D5434D4C1BE35CE90007A016 /* NSDate+InternetDateTime.m */; };
+		D5434D691BE35CE90007A016 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = D5434D4E1BE35CE90007A016 /* NSString+HTML.m */; };
+		D5434D6A1BE35CE90007A016 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = D5434D501BE35CE90007A016 /* NSString+XMLEntities.m */; };
+		D5434D6B1BE35CE90007A016 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5434D521BE35CE90007A016 /* RootViewController.m */; };
+		D5434D7A1BE35DB60007A016 /* NewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5434D791BE35DB60007A016 /* NewsFeedCell.swift */; };
+		D5434D801BE369450007A016 /* Comment.png in Resources */ = {isa = PBXBuildFile; fileRef = D5434D7C1BE369450007A016 /* Comment.png */; };
+		D5434D811BE369450007A016 /* Downvote.png in Resources */ = {isa = PBXBuildFile; fileRef = D5434D7D1BE369450007A016 /* Downvote.png */; };
+		D5434D821BE369450007A016 /* Star.png in Resources */ = {isa = PBXBuildFile; fileRef = D5434D7E1BE369450007A016 /* Star.png */; };
+		D5434D831BE369450007A016 /* Upvote.png in Resources */ = {isa = PBXBuildFile; fileRef = D5434D7F1BE369450007A016 /* Upvote.png */; };
+		D5434D851BE36C470007A016 /* TitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5434D841BE36C470007A016 /* TitleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +52,7 @@
 /* Begin PBXFileReference section */
 		D5434D061BE357D80007A016 /* Money Talks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Talks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5434D091BE357D80007A016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5434D0B1BE357D80007A016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5434D0B1BE357D80007A016 /* NewsFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
 		D5434D0E1BE357D80007A016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5434D101BE357D80007A016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5434D131BE357D80007A016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,34 @@
 		D5434D251BE357D80007A016 /* Money TalksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money TalksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5434D291BE357D80007A016 /* Money_TalksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_TalksUITests.swift; sourceTree = "<group>"; };
 		D5434D2B1BE357D80007A016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5434D371BE35CAF0007A016 /* Money Talks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Money Talks-Bridging-Header.h"; sourceTree = "<group>"; };
+		D5434D3E1BE35CE90007A016 /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewController.h; sourceTree = "<group>"; };
+		D5434D3F1BE35CE90007A016 /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewController.m; sourceTree = "<group>"; };
+		D5434D401BE35CE90007A016 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		D5434D411BE35CE90007A016 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		D5434D421BE35CE90007A016 /* MWFeedInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedInfo.h; sourceTree = "<group>"; };
+		D5434D431BE35CE90007A016 /* MWFeedInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedInfo.m; sourceTree = "<group>"; };
+		D5434D441BE35CE90007A016 /* MWFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedItem.h; sourceTree = "<group>"; };
+		D5434D451BE35CE90007A016 /* MWFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedItem.m; sourceTree = "<group>"; };
+		D5434D461BE35CE90007A016 /* MWFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser.h; sourceTree = "<group>"; };
+		D5434D471BE35CE90007A016 /* MWFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedParser.m; sourceTree = "<group>"; };
+		D5434D481BE35CE90007A016 /* MWFeedParser_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParser_Private.h; sourceTree = "<group>"; };
+		D5434D491BE35CE90007A016 /* MWFeedParserAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFeedParserAppDelegate.h; sourceTree = "<group>"; };
+		D5434D4A1BE35CE90007A016 /* MWFeedParserAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFeedParserAppDelegate.m; sourceTree = "<group>"; };
+		D5434D4B1BE35CE90007A016 /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		D5434D4C1BE35CE90007A016 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+		D5434D4D1BE35CE90007A016 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		D5434D4E1BE35CE90007A016 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		D5434D4F1BE35CE90007A016 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMLEntities.h"; sourceTree = "<group>"; };
+		D5434D501BE35CE90007A016 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLEntities.m"; sourceTree = "<group>"; };
+		D5434D511BE35CE90007A016 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D5434D521BE35CE90007A016 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D5434D791BE35DB60007A016 /* NewsFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedCell.swift; sourceTree = "<group>"; };
+		D5434D7C1BE369450007A016 /* Comment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Comment.png; sourceTree = "<group>"; };
+		D5434D7D1BE369450007A016 /* Downvote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Downvote.png; sourceTree = "<group>"; };
+		D5434D7E1BE369450007A016 /* Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star.png; sourceTree = "<group>"; };
+		D5434D7F1BE369450007A016 /* Upvote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Upvote.png; sourceTree = "<group>"; };
+		D5434D841BE36C470007A016 /* TitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +121,8 @@
 		D5434CFD1BE357D80007A016 = {
 			isa = PBXGroup;
 			children = (
+				D5434D7B1BE368E00007A016 /* Assets */,
+				D5434D3B1BE35CE90007A016 /* MWFeedParser-master */,
 				D5434D081BE357D80007A016 /* Money Talks */,
 				D5434D1D1BE357D80007A016 /* Money TalksTests */,
 				D5434D281BE357D80007A016 /* Money TalksUITests */,
@@ -98,11 +144,14 @@
 			isa = PBXGroup;
 			children = (
 				D5434D091BE357D80007A016 /* AppDelegate.swift */,
-				D5434D0B1BE357D80007A016 /* ViewController.swift */,
+				D5434D0B1BE357D80007A016 /* NewsFeed.swift */,
 				D5434D0D1BE357D80007A016 /* Main.storyboard */,
+				D5434D841BE36C470007A016 /* TitleCell.swift */,
 				D5434D101BE357D80007A016 /* Assets.xcassets */,
 				D5434D121BE357D80007A016 /* LaunchScreen.storyboard */,
 				D5434D151BE357D80007A016 /* Info.plist */,
+				D5434D371BE35CAF0007A016 /* Money Talks-Bridging-Header.h */,
+				D5434D791BE35DB60007A016 /* NewsFeedCell.swift */,
 			);
 			path = "Money Talks";
 			sourceTree = "<group>";
@@ -123,6 +172,53 @@
 				D5434D2B1BE357D80007A016 /* Info.plist */,
 			);
 			path = "Money TalksUITests";
+			sourceTree = "<group>";
+		};
+		D5434D3B1BE35CE90007A016 /* MWFeedParser-master */ = {
+			isa = PBXGroup;
+			children = (
+				D5434D3D1BE35CE90007A016 /* Classes */,
+			);
+			path = "MWFeedParser-master";
+			sourceTree = "<group>";
+		};
+		D5434D3D1BE35CE90007A016 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5434D3E1BE35CE90007A016 /* DetailTableViewController.h */,
+				D5434D3F1BE35CE90007A016 /* DetailTableViewController.m */,
+				D5434D401BE35CE90007A016 /* GTMNSString+HTML.h */,
+				D5434D411BE35CE90007A016 /* GTMNSString+HTML.m */,
+				D5434D421BE35CE90007A016 /* MWFeedInfo.h */,
+				D5434D431BE35CE90007A016 /* MWFeedInfo.m */,
+				D5434D441BE35CE90007A016 /* MWFeedItem.h */,
+				D5434D451BE35CE90007A016 /* MWFeedItem.m */,
+				D5434D461BE35CE90007A016 /* MWFeedParser.h */,
+				D5434D471BE35CE90007A016 /* MWFeedParser.m */,
+				D5434D481BE35CE90007A016 /* MWFeedParser_Private.h */,
+				D5434D491BE35CE90007A016 /* MWFeedParserAppDelegate.h */,
+				D5434D4A1BE35CE90007A016 /* MWFeedParserAppDelegate.m */,
+				D5434D4B1BE35CE90007A016 /* NSDate+InternetDateTime.h */,
+				D5434D4C1BE35CE90007A016 /* NSDate+InternetDateTime.m */,
+				D5434D4D1BE35CE90007A016 /* NSString+HTML.h */,
+				D5434D4E1BE35CE90007A016 /* NSString+HTML.m */,
+				D5434D4F1BE35CE90007A016 /* NSString+XMLEntities.h */,
+				D5434D501BE35CE90007A016 /* NSString+XMLEntities.m */,
+				D5434D511BE35CE90007A016 /* RootViewController.h */,
+				D5434D521BE35CE90007A016 /* RootViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D5434D7B1BE368E00007A016 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D5434D7C1BE369450007A016 /* Comment.png */,
+				D5434D7D1BE369450007A016 /* Downvote.png */,
+				D5434D7E1BE369450007A016 /* Star.png */,
+				D5434D7F1BE369450007A016 /* Upvote.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +326,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5434D141BE357D80007A016 /* LaunchScreen.storyboard in Resources */,
+				D5434D801BE369450007A016 /* Comment.png in Resources */,
+				D5434D811BE369450007A016 /* Downvote.png in Resources */,
+				D5434D831BE369450007A016 /* Upvote.png in Resources */,
+				D5434D821BE369450007A016 /* Star.png in Resources */,
 				D5434D111BE357D80007A016 /* Assets.xcassets in Resources */,
 				D5434D0F1BE357D80007A016 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +356,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5434D0C1BE357D80007A016 /* ViewController.swift in Sources */,
+				D5434D651BE35CE90007A016 /* MWFeedItem.m in Sources */,
+				D5434D621BE35CE90007A016 /* DetailTableViewController.m in Sources */,
+				D5434D6B1BE35CE90007A016 /* RootViewController.m in Sources */,
+				D5434D691BE35CE90007A016 /* NSString+HTML.m in Sources */,
+				D5434D661BE35CE90007A016 /* MWFeedParser.m in Sources */,
+				D5434D7A1BE35DB60007A016 /* NewsFeedCell.swift in Sources */,
+				D5434D631BE35CE90007A016 /* GTMNSString+HTML.m in Sources */,
+				D5434D0C1BE357D80007A016 /* NewsFeed.swift in Sources */,
+				D5434D851BE36C470007A016 /* TitleCell.swift in Sources */,
+				D5434D6A1BE35CE90007A016 /* NSString+XMLEntities.m in Sources */,
+				D5434D671BE35CE90007A016 /* MWFeedParserAppDelegate.m in Sources */,
 				D5434D0A1BE357D80007A016 /* AppDelegate.swift in Sources */,
+				D5434D681BE35CE90007A016 /* NSDate+InternetDateTime.m in Sources */,
+				D5434D641BE35CE90007A016 /* MWFeedInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +509,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Money Talks/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AppOne.Money-Talks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Money Talks/Money Talks-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -408,10 +523,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Money Talks/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AppOne.Money-Talks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Money Talks/Money Talks-Bridging-Header.h";
 			};
 			name = Release;
 		};
