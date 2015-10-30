@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5434D0A1BE357D80007A016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5434D091BE357D80007A016 /* AppDelegate.swift */; };
+		D5434D0C1BE357D80007A016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5434D0B1BE357D80007A016 /* ViewController.swift */; };
+		D5434D0F1BE357D80007A016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5434D0D1BE357D80007A016 /* Main.storyboard */; };
+		D5434D111BE357D80007A016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5434D101BE357D80007A016 /* Assets.xcassets */; };
+		D5434D141BE357D80007A016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5434D121BE357D80007A016 /* LaunchScreen.storyboard */; };
+		D5434D1F1BE357D80007A016 /* Money_TalksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5434D1E1BE357D80007A016 /* Money_TalksTests.swift */; };
+		D5434D2A1BE357D80007A016 /* Money_TalksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5434D291BE357D80007A016 /* Money_TalksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5434D1B1BE357D80007A016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5434CFE1BE357D80007A016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5434D051BE357D80007A016;
+			remoteInfo = "Money Talks";
+		};
+		D5434D261BE357D80007A016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5434CFE1BE357D80007A016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5434D051BE357D80007A016;
+			remoteInfo = "Money Talks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5434D061BE357D80007A016 /* Money Talks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money Talks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5434D091BE357D80007A016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5434D0B1BE357D80007A016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5434D0E1BE357D80007A016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5434D101BE357D80007A016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5434D131BE357D80007A016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5434D151BE357D80007A016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5434D1A1BE357D80007A016 /* Money TalksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money TalksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5434D1E1BE357D80007A016 /* Money_TalksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_TalksTests.swift; sourceTree = "<group>"; };
+		D5434D201BE357D80007A016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5434D251BE357D80007A016 /* Money TalksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Money TalksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5434D291BE357D80007A016 /* Money_TalksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_TalksUITests.swift; sourceTree = "<group>"; };
+		D5434D2B1BE357D80007A016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5434D031BE357D80007A016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5434D171BE357D80007A016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5434D221BE357D80007A016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5434CFD1BE357D80007A016 = {
+			isa = PBXGroup;
+			children = (
+				D5434D081BE357D80007A016 /* Money Talks */,
+				D5434D1D1BE357D80007A016 /* Money TalksTests */,
+				D5434D281BE357D80007A016 /* Money TalksUITests */,
+				D5434D071BE357D80007A016 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5434D071BE357D80007A016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5434D061BE357D80007A016 /* Money Talks.app */,
+				D5434D1A1BE357D80007A016 /* Money TalksTests.xctest */,
+				D5434D251BE357D80007A016 /* Money TalksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5434D081BE357D80007A016 /* Money Talks */ = {
+			isa = PBXGroup;
+			children = (
+				D5434D091BE357D80007A016 /* AppDelegate.swift */,
+				D5434D0B1BE357D80007A016 /* ViewController.swift */,
+				D5434D0D1BE357D80007A016 /* Main.storyboard */,
+				D5434D101BE357D80007A016 /* Assets.xcassets */,
+				D5434D121BE357D80007A016 /* LaunchScreen.storyboard */,
+				D5434D151BE357D80007A016 /* Info.plist */,
+			);
+			path = "Money Talks";
+			sourceTree = "<group>";
+		};
+		D5434D1D1BE357D80007A016 /* Money TalksTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5434D1E1BE357D80007A016 /* Money_TalksTests.swift */,
+				D5434D201BE357D80007A016 /* Info.plist */,
+			);
+			path = "Money TalksTests";
+			sourceTree = "<group>";
+		};
+		D5434D281BE357D80007A016 /* Money TalksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5434D291BE357D80007A016 /* Money_TalksUITests.swift */,
+				D5434D2B1BE357D80007A016 /* Info.plist */,
+			);
+			path = "Money TalksUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5434D051BE357D80007A016 /* Money Talks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5434D2E1BE357D80007A016 /* Build configuration list for PBXNativeTarget "Money Talks" */;
+			buildPhases = (
+				D5434D021BE357D80007A016 /* Sources */,
+				D5434D031BE357D80007A016 /* Frameworks */,
+				D5434D041BE357D80007A016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Money Talks";
+			productName = "Money Talks";
+			productReference = D5434D061BE357D80007A016 /* Money Talks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5434D191BE357D80007A016 /* Money TalksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5434D311BE357D80007A016 /* Build configuration list for PBXNativeTarget "Money TalksTests" */;
+			buildPhases = (
+				D5434D161BE357D80007A016 /* Sources */,
+				D5434D171BE357D80007A016 /* Frameworks */,
+				D5434D181BE357D80007A016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5434D1C1BE357D80007A016 /* PBXTargetDependency */,
+			);
+			name = "Money TalksTests";
+			productName = "Money TalksTests";
+			productReference = D5434D1A1BE357D80007A016 /* Money TalksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5434D241BE357D80007A016 /* Money TalksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5434D341BE357D80007A016 /* Build configuration list for PBXNativeTarget "Money TalksUITests" */;
+			buildPhases = (
+				D5434D211BE357D80007A016 /* Sources */,
+				D5434D221BE357D80007A016 /* Frameworks */,
+				D5434D231BE357D80007A016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5434D271BE357D80007A016 /* PBXTargetDependency */,
+			);
+			name = "Money TalksUITests";
+			productName = "Money TalksUITests";
+			productReference = D5434D251BE357D80007A016 /* Money TalksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5434CFE1BE357D80007A016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = AppOne;
+				TargetAttributes = {
+					D5434D051BE357D80007A016 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D5434D191BE357D80007A016 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D5434D051BE357D80007A016;
+					};
+					D5434D241BE357D80007A016 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D5434D051BE357D80007A016;
+					};
+				};
+			};
+			buildConfigurationList = D5434D011BE357D80007A016 /* Build configuration list for PBXProject "Money Talks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5434CFD1BE357D80007A016;
+			productRefGroup = D5434D071BE357D80007A016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5434D051BE357D80007A016 /* Money Talks */,
+				D5434D191BE357D80007A016 /* Money TalksTests */,
+				D5434D241BE357D80007A016 /* Money TalksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5434D041BE357D80007A016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5434D141BE357D80007A016 /* LaunchScreen.storyboard in Resources */,
+				D5434D111BE357D80007A016 /* Assets.xcassets in Resources */,
+				D5434D0F1BE357D80007A016 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5434D181BE357D80007A016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5434D231BE357D80007A016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5434D021BE357D80007A016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5434D0C1BE357D80007A016 /* ViewController.swift in Sources */,
+				D5434D0A1BE357D80007A016 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5434D161BE357D80007A016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5434D1F1BE357D80007A016 /* Money_TalksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5434D211BE357D80007A016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5434D2A1BE357D80007A016 /* Money_TalksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5434D1C1BE357D80007A016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5434D051BE357D80007A016 /* Money Talks */;
+			targetProxy = D5434D1B1BE357D80007A016 /* PBXContainerItemProxy */;
+		};
+		D5434D271BE357D80007A016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5434D051BE357D80007A016 /* Money Talks */;
+			targetProxy = D5434D261BE357D80007A016 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5434D0D1BE357D80007A016 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5434D0E1BE357D80007A016 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5434D121BE357D80007A016 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5434D131BE357D80007A016 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5434D2C1BE357D80007A016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5434D2D1BE357D80007A016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5434D2F1BE357D80007A016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Money Talks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppOne.Money-Talks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5434D301BE357D80007A016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Money Talks/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppOne.Money-Talks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5434D321BE357D80007A016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Money TalksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppOne.Money-TalksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money Talks.app/Money Talks";
+			};
+			name = Debug;
+		};
+		D5434D331BE357D80007A016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Money TalksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppOne.Money-TalksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money Talks.app/Money Talks";
+			};
+			name = Release;
+		};
+		D5434D351BE357D80007A016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Money TalksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppOne.Money-TalksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Money Talks";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D5434D361BE357D80007A016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Money TalksUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AppOne.Money-TalksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Money Talks";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5434D011BE357D80007A016 /* Build configuration list for PBXProject "Money Talks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5434D2C1BE357D80007A016 /* Debug */,
+				D5434D2D1BE357D80007A016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5434D2E1BE357D80007A016 /* Build configuration list for PBXNativeTarget "Money Talks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5434D2F1BE357D80007A016 /* Debug */,
+				D5434D301BE357D80007A016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5434D311BE357D80007A016 /* Build configuration list for PBXNativeTarget "Money TalksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5434D321BE357D80007A016 /* Debug */,
+				D5434D331BE357D80007A016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5434D341BE357D80007A016 /* Build configuration list for PBXNativeTarget "Money TalksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5434D351BE357D80007A016 /* Debug */,
+				D5434D361BE357D80007A016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5434CFE1BE357D80007A016 /* Project object */;
+}
